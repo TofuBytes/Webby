@@ -2,7 +2,7 @@
 import './App.css';
 import React from "react";
 
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 
 import {
     BrowserRouter as Router,
@@ -55,9 +55,10 @@ import Contact from "./pages/contact";
     );
 } */
 
-function App() {
-  return (
+/*
+
     <Router>
+      
       <Navbar/>
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -67,6 +68,22 @@ function App() {
 
         </Routes>
     </Router>
+*/
+
+function App() {
+  return (
+    <>
+    <Navbar/>
+      <div>
+    <Routes>        
+      <Route path="/"  element={<Home/>} />
+      <Route path="/about"  element={<About />}/>
+      <Route path="/contact" element={<Contact />}/>
+      <Route path="/blog"  element={<Blogs />}/>
+    </Routes>
+    </div>
+    </>
+
   
   );
 }
