@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import React from "react";
 
@@ -60,6 +60,7 @@ function App() {
     <Router>
       <Navbar/>
         <Routes>
+          <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />}/>
           <Route path="/blogs" element={<Blogs />} />
