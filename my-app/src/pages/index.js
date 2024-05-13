@@ -5,8 +5,8 @@ import './pages.css';
  
 const Home = () => {
     return (
-        <div className="outer">
-            <div>Tran La</div>
+        <div>
+            <h1 className="name">Tran La</h1>
         </div>
     );
 };

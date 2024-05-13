@@ -11,7 +11,7 @@ export const Nav = styled.nav`
     width: 39rem;
     font-size:1.2rem;
     font-weight: bold;
-    margin-top:1.0rem;
+    margin-top:1.35rem;
 
 `;
  
@@ -44,13 +44,12 @@ white-space: nowrap; */
 
 export const NavMenuL = styled.div`
     display: flex;
-    align-items: center;
-    margin-right: -24px;
+    align-items: left;
     /* Second Nav */
-    /* margin-right: 24px; */
+    margin-left: -16px;
     /* Third Nav */
     /* width: 100vw;
-white-space: nowrap; */
+    white-space: nowrap; */
     @media screen and (max-width: 768px) {
         display: none;
     }
