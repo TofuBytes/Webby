@@ -73,7 +73,6 @@ import Contact from "./pages/contact";
 function App() {
   return (
     <>
-    <div className="Nav">
     <Navbar/>
       <Routes>
       <Route path="/"  element={<Home/>} />
@@ -82,7 +81,6 @@ function App() {
       <Route path="/contact" element={<Contact />}/>
       <Route path="/blog"  element={<Blogs />}/>
       </Routes>
-    </div>
     </>
 
   

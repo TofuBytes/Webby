@@ -6,6 +6,13 @@ export const Nav = styled.nav`
     background: black;
     display: flex;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 39rem;
+    font-size:1.2rem;
+    font-weight: bold;
+    margin-top:1.0rem;
+
 `;
  
 export const NavLink = styled(Link)`

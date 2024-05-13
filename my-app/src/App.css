@@ -13,18 +13,6 @@
 }
 
 
-.Nav-Left {
-  flex-grow: 1;
-  list-style-type: none;
-  padding-bottom: 1.25rem;
-  padding-top: 1.25rem;
-}
-
-.Nav-Right{
-  margin: 0;
-  padding-bottom: 1.25rem;
-  padding-top: 1.25rem;
-}
 
 .App-header {
   background-color: #282c34;

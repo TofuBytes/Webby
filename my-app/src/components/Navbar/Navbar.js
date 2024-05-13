@@ -1,11 +1,10 @@
 import React from "react";
 import { Nav, NavLink, NavMenu, NavMenuL, NavMenuR} from "./NavbarElements.js";
-import "./Navbar.css"
  
 const Navbar = () => {
     return (
         <>
-            <Nav >
+            <Nav>
                 <NavMenuL>
 
                     <NavLink to="/" activeStyle>
