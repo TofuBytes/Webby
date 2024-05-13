@@ -5,7 +5,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 
 import {
-    BrowserRouter as Router,
+    //BrowserRouter as Router,
     Routes,
     Route,
 } from "react-router-dom";
@@ -73,14 +73,15 @@ import Contact from "./pages/contact";
 function App() {
   return (
     <>
+    <div className="Nav">
     <Navbar/>
-      <div>
-    <Routes>        
+      <Routes>
       <Route path="/"  element={<Home/>} />
+      <Route path="/tran"  element={<Home/>} />
       <Route path="/about"  element={<About />}/>
       <Route path="/contact" element={<Contact />}/>
       <Route path="/blog"  element={<Blogs />}/>
-    </Routes>
+      </Routes>
     </div>
     </>
 

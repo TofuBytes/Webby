@@ -1,11 +1,12 @@
 // Filename - pages/index.js
  
 import React from "react";
+import './pages.css';
  
 const Home = () => {
     return (
-        <div>
-            <h1>Homepage</h1>
+        <div className="outer">
+            <div>Tran La</div>
         </div>
     );
 };
