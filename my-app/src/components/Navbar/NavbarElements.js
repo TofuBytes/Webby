@@ -4,17 +4,19 @@ import styled from "styled-components";
  
 export const Nav = styled.nav`
     background:  #13131A;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #F0F0F5;
     display: flex;
     justify-content: space-between;
     /*width: 45rem;
-    font-size:1.35rem;
+    font-size:1.2rem;
     font-weight: bold;
     margin-top:1.35rem;
     align-items: flex-start;
 `;
  
 export const NavLink = styled(Link)`
+    font-weight: bold;
+    color: #F0F0F5;
     min-height: 7vh;
     align-items: center;
     color: white;
