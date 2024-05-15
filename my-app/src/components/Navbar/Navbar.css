@@ -1,0 +1,19 @@
+#nav ul {
+    width: 100%;
+    padding: 0;
+    background-color: #ccc;
+    overflow: hidden;
+  }
+  #nav ul li {
+    float: right;
+    list-style: none;
+    box-sizing: border-box;
+    min-width: 100px;
+    max-width: 133px;
+    padding: 5px 10px;
+    /* only to make it look better */
+  }
+  #nav ul li:first-child {
+    float: left;
+    text-align: left;
+  }

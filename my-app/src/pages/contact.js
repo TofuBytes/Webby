@@ -5,11 +5,12 @@ import React from "react";
  
 const Contact = () => {
     return (
-        <div>
-            <h1 className="name">
-               Contact Page
-            </h1>
+        <main>
+        <div className="body">
+            <h1 className="name">Tran La</h1>
+            <h2>This is contact page</h2>
         </div>
+        </main>
     );
 };
  

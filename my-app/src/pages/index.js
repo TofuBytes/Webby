@@ -5,9 +5,12 @@ import './pages.css';
  
 const Home = () => {
     return (
-        <div>
+        <main>
+        <div className="body">
             <h1 className="name">Tran La</h1>
+            <h2>This is my page</h2>
         </div>
+        </main>
     );
 };
  

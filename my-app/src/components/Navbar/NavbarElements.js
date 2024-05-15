@@ -8,11 +8,11 @@ export const Nav = styled.nav`
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    width: 39rem;
-    font-size:1.2rem;
+    width: 45rem;
+    font-size:1.35rem;
     font-weight: bold;
     margin-top:1.35rem;
-
+    border-bottom: 1px solid gray;
 `;
  
 export const NavLink = styled(Link)`
@@ -26,6 +26,7 @@ export const NavLink = styled(Link)`
     &.active {
         color: #4d4dff;
     }
+    margin-bottom: .5rem;
 `;
  
 export const NavMenuR = styled.div`

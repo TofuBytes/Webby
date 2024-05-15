@@ -1,7 +1,19 @@
 
 
   .name {
+
+  }
+
+  main {
+    margin-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    padding-top: 0.0063rem;
+  }
+  
+
+  .body{
     margin-left: auto;
     margin-right: auto;
-    width: 39rem;
+    width: 45rem;
+    
   }

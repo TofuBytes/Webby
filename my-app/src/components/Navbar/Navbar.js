@@ -4,7 +4,7 @@ import { Nav, NavLink, NavMenu, NavMenuL, NavMenuR} from "./NavbarElements.js";
 const Navbar = () => {
     return (
         <>
-            <Nav>
+            <Nav useTransparent>
                 <NavMenuL>
 
                     <NavLink to="/" activeStyle>
